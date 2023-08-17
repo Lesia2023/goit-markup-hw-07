@@ -984,7 +984,7 @@ scale:0.6;
 
 }
 
-.modal-close-btn:hover .modal-close-icon{
+.modal-close-btn:hover {
     color: #2196F3;
 }
 .modal-close-btn:focus .modal-close-icon {
