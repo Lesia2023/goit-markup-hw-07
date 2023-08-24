@@ -954,6 +954,7 @@ img {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-transform: false;
   color: var(--prinory-text-color);
   margin-bottom: 10px;
   text-align: center;
@@ -1053,13 +1054,13 @@ img {
 }
 
 .product__text {
-  color: #FFF;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
+  /* color: #FFF;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 0.42px;
+   text-transform: uppercase;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1070,6 +1071,12 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin: auto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 footer {
@@ -1114,8 +1121,8 @@ footer {
 
 .accession {
   color: #FFF;
-  font-size: 14px;
   font-weight: 700;
+  font-size: 14px;
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;

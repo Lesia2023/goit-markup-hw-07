@@ -1,6 +1,7 @@
 @import './utils/vars';
 @import './utils/visually-hidden';
 
+
 //base styles
 @import './base/common';
 @import './base/reset';
@@ -15,7 +16,7 @@
 @import './components/socials';
 @import './components/modal-form';
 
-//logo
+//layouts
 
 @import './layouts/heder';
 @import './layouts/hero.scss';
