@@ -38,7 +38,7 @@
     &:focus-within{
     outline:1px  solid #2196F3;
 
-}
+    }
 
 }
 
@@ -79,7 +79,7 @@ appearance: none;
     height: 120px;
     flex-shrink: 0;
     color: rgba(117, 117, 117, 0.50);
-    font-family: Roboto;
+    font-family: var(--main-font);
      font-size: 12px;
      font-weight: 400;
     letter-spacing: 0.12px;
